@@ -1,4 +1,4 @@
-# SGBM - Mid-Submission Report
+# SGBM - 3D reconstruction 
 
 This repository showcases the implementation of the **Semi-Global Block Matching (SGBM)** algorithm, a widely used method in stereo vision for computing disparity maps. The project also extends to reconstructing 3D scenes from the computed disparity maps, making it a crucial step in stereo vision applications.
 
