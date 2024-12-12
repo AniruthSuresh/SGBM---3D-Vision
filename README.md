@@ -29,8 +29,16 @@ where:
 The resulting depth map is used to reconstruct the 3D scene by mapping points into the camera’s 3D coordinate space.
 
 ---
+## 2. Datasets
 
-## 2. Installation
+### 1. SGBM
+- For the SGBM project, we used the KITTI stereo dataset.  
+  Download the dataset from the official KITTI website:  
+  [KITTI Stereo Dataset](https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo)
+
+---
+
+## 3. Installation
 
 Set up the environment using the steps below:
 
@@ -39,4 +47,16 @@ conda create --name myenv
 conda activate myenv
 conda install numpy opencv matplotlib
 ```
+---
+## 4. Usage
+
+- The SGBM project uses only basic Python libraries and does not require a complex setup.
+  
+- **Run the code**:
+    ```bash
+    cd src
+    python check.py # This is the main file
+    ```
+- Ensure the KITTI dataset is placed in the specified directory before execution.
+
 
