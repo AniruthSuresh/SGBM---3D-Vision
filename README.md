@@ -16,9 +16,10 @@ The **Semi-Global Block Matching (SGBM)** algorithm is an efficient approach to 
 
 ### 3D Reconstruction
 Using the disparity map, depth information is extracted by applying the following formula:
-$$
+\[
 Z = \frac{f \cdot B}{d}
-$$
+\]
+
 where:
 - \( Z \): Depth of the point in the scene.
 - \( f \): Focal length of the camera.
