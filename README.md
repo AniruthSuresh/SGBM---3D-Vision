@@ -30,8 +30,7 @@ The resulting depth map is used to reconstruct the 3D scene by mapping points in
 ## 2. Datasets
 
 ### 1. SGBM
-- For the SGBM project, we used the KITTI stereo dataset.  
-  Download the dataset from the official KITTI website:  
+- For the SGBM project, we used the KITTI stereo dataset.  Download the dataset from the official KITTI website:  
   [KITTI Stereo Dataset](https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo)
 
 ---
