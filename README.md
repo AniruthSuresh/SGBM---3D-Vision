@@ -19,10 +19,10 @@ $$Z = \frac{f \cdot B}{d}$$
 
 
 where:
-- \( Z \): Depth of the point in the scene.
-- \( f \): Focal length of the camera.
-- \( B \): Baseline distance between the stereo cameras.
-- \( d \): Disparity value.
+- $$Z$$: Depth of the point in the scene.
+- $$f$$: Focal length of the camera.
+- $$B$$: Baseline distance between the stereo cameras.
+- $$d$$: Disparity value.
 
 The resulting depth map is used to reconstruct the 3D scene by mapping points into the camera’s 3D coordinate space.
 
