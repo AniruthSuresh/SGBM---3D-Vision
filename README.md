@@ -53,7 +53,8 @@ conda install numpy opencv matplotlib
 - **Run the code**:
     ```bash
     cd src
-    python check.py # This is the main file
+    python3 main.py # This is the main file for 3D reconstruction
+    python3 benchmark.py # This is the benchmarking file 
     ```
 - Ensure the KITTI dataset is placed in the specified directory before execution.
 
